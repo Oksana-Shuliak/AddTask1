@@ -1,0 +1,111 @@
+.wrapper {
+	width: 100%;
+	margin-left: 0;
+}
+
+.wrapper .header {
+	background-color: #2F2727;
+	width: 100%;	
+	display: inline-block;
+}
+
+.header .project_name {
+	float: left;
+	margin: 15px;
+}
+
+.header .project_name a{
+	text-decoration: none;
+	color: grey;
+	font-size: 20px; 
+}
+
+.project_name:hover a{
+	color: white;
+}
+
+.header .navigator {
+	float: right;
+	margin: 10px;
+	font-size: 20px;
+	padding-right: 70px;
+}
+
+.navigator input {
+	border-radius: 2px;
+	border: none;
+	padding: 5px;
+	box-shadow: 1px 1px 3px #7F7F7F;
+}
+
+.navigator button {
+	background-color: #0BB51F;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.navigator button:hover {
+	background-color: #18783A;
+}
+
+.hello_world {
+	display: block;
+	background-color: #e8eaea;
+	height: 300px;
+	padding: 20px; 
+}
+
+.hello_world p {
+	font-size: 24px;	
+}
+
+.hello_world button {
+	background-color: #2e72a7;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	outline: none;
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+}
+
+.hello_world button:hover {
+	background-color: #215177;
+}
+
+.content .row button {
+	border: 1px solid #DEDCDC;
+	outline: none;
+	border-radius: 6px;
+	background-color: transparent;
+	color: grey;
+	width: 130px;
+	height: 40px;
+	padding: 10px;
+	text-align: center;
+}
+
+.content .row button:hover {
+	background-color: #D8D3D3;
+}
+
+.content .row {
+	display: block;
+	float: right;
+	width: 30%;
+	padding: 20px;
+}
+
+.footer {
+	clear: both;
+	margin-left: 18px; 
+}
+
+hr {
+	clear: both;
+}
